@@ -21,7 +21,7 @@ function buildTable(duomenys) {
     }
 }
     window.onload = () => {
-        buildTable(tusciasMasyvas);
+        buildTable(knygos);
     }
 
 
