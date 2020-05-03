@@ -17,11 +17,11 @@ function buildTable(duomenys) {
         table.innerHTML += dataHtml;
     }
     else {
-        table.innerHTML=`<h3>Duomenu prasytu uzklausoje nera.</h3>`
+        table.innerHTML=`<tr> <td colspan="4">Duomenų apie pateiktą užklausą nėra.</td>`
     }
 }
     window.onload = () => {
-        buildTable(knygos);
+        buildTable(tusciasMasyvas);
     }
 
 
